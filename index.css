@@ -304,6 +304,15 @@ ruby { white-space: normal; }
 
 [data-routeuser] .avatar { max-width: 150px; }
 
+[data-template="routeuser"] .avatar {
+   width: 50px;
+   margin-left: 10px !important;
+}
+
+@media (min-width: 700px) {
+   [data-template="routeuser"] .avatar { width: 100px; margin-left: 15 !important; }
+}
+
 /* ------- */
 /* Logging
 /* ------- */
